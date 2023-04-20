@@ -1,0 +1,7 @@
+<div class="container">
+  <h1>Films</h1>
+  <app-filter (filterChanged)="onFilterChanged($event)"></app-filter>
+  <div *ngIf="films" class="film-list">
+      <app-film *ngFor="let item of films" [film]="item"></app-film>
+  </div>
+</div>

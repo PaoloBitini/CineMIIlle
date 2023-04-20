@@ -1,0 +1,14 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.button{
+  padding: 25px 40px;
+}
+
+.filters{
+  display: flex;
+  gap: 20px;
+}

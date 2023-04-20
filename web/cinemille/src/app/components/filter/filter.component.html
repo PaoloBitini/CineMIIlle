@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="filters">
+    <mat-form-field appearance="outline">
+      <mat-label>Inserisci date</mat-label>
+      <mat-date-range-input [formGroup]="range" [rangePicker]="picker">
+        <input matStartDate formControlName="da" placeholder="Data inizio" />
+        <input matEndDate formControlName="a" placeholder="Data fine" />
+      </mat-date-range-input>
+      <mat-datepicker-toggle
+        matIconSuffix
+        [for]="picker"
+      ></mat-datepicker-toggle>
+      <mat-date-range-picker #picker></mat-date-range-picker>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Titolo</mat-label>
+      <input matInput [(ngModel)]="titolo">
+    </mat-form-field>
+  </div>
+  <button mat-flat-button class="button" (click)="buttonPressed()">
+    Cerca<mat-icon>search</mat-icon>
+  </button>
+</div>

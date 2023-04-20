@@ -1,0 +1,16 @@
+<div class="main-page">
+  <mat-sidenav-container fullscreen>
+    <mat-sidenav mode="side" opened>
+      <mat-nav-list>
+
+        <mat-list-item *ngFor="let item of routeList" [routerLink]="item.route">
+          {{ item.name }}
+        </mat-list-item>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <app-header [title]="title"></app-header>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>

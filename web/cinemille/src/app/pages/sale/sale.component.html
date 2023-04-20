@@ -1,0 +1,6 @@
+<div class="container">
+  <h1 class>Sale</h1>
+  <div *ngIf="sale" class="sale-list">
+    <app-sala *ngFor="let item of sale" [sala]="item"></app-sala>
+  </div>
+</div>
