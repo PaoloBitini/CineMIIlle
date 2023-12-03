@@ -17,7 +17,7 @@ The application allows obtaining information related to schedules through filter
 
 ## Architecture and logical schemes
 ### Database
-![image](https://github.com/PaoloBitini/CineMIIlle/assets/44835229/1a7930a9-5546-47db-8ac0-7b7db3f856af)
+![image](https://github.com/PaoloBitini/CineMIIlle/assets/44835229/8cf79026-84d3-4cee-9366-ee12de9df09d)
 
 ### Backend
 ![image](https://github.com/PaoloBitini/CineMIIlle/assets/44835229/40eb43f4-a506-4240-9907-713d1eb05637)
