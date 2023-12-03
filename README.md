@@ -21,6 +21,7 @@ The application allows obtaining information related to schedules through filter
 
 ### Backend
 ![image](https://github.com/PaoloBitini/CineMIIlle/assets/44835229/40eb43f4-a506-4240-9907-713d1eb05637)
+
 Entity Framework has being used sinse allows easy manipulation of data in the database. Additionally, a layer was added for separate the logic of the Framework models from the logic of the data to be transferred.
 
 ### Frontend
